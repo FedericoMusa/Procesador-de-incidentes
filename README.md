@@ -9,6 +9,7 @@ Este proyecto automatiza la extracción de datos desde planillas de incidentes (
 
   . No requiere Docker (optimizado para PCs de bajos recursos).
 # 📂 Estructura del Proyecto
+```
 incidents_processor/
 ├── data/
 │   ├── raw/                # PDFs a procesar (ej. Comunicado N° 06/26)
@@ -18,7 +19,8 @@ incidents_processor/
 │   ├── transformation/     # Conversión de coordenadas y normalización de fechas
 │   └── main.py             # Ejecutor principal
 ├── requirements.txt        # Librerías (PyMuPDF, Pandas, PyProj)
-└── README.md               # Este archivo
+└── README.md               
+```
 # 📊 Mapeo de Datos y Validación
 
 El sistema normaliza los datos de entrada a un esquema unificado:
