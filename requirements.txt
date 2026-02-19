@@ -1,4 +1,15 @@
-pymupdf>=1.24.10
-pandas==2.2.0
-pyproj==3.6.1
-openpyxl==3.1.2
+# Procesador de Incidentes Ambientales — Oil & Gas Mendoza
+# Python 3.10+
+
+# Extracción de texto desde PDFs
+PyMuPDF>=1.23.0
+
+# Transformación de coordenadas (WGS84 → UTM / Gauss-Krüger)
+pyproj>=3.6.0
+
+# Manipulación y análisis de datos
+pandas>=2.0.0
+
+# Tests
+pytest>=8.0.0
+pytest-cov>=5.0.0
