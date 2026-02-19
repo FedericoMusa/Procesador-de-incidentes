@@ -1,0 +1,47 @@
+2026-02-19 19:01:06,009 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 6
+2026-02-19 19:01:06,016 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-19 19:01:06,037 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-19 19:01:06,064 [ERROR] __main__ — Error de base de datos para PP-06/26: no such table: incidentes
+2026-02-19 19:01:06,064 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-19 19:01:06,071 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-19 19:01:06,076 [ERROR] __main__ — Error de base de datos para PP-06/26: no such table: incidentes
+2026-02-19 19:01:06,077 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-19 19:01:06,085 [WARNING] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Formato no reconocido, se omite.
+2026-02-19 19:01:06,085 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-19 19:01:06,089 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-19 19:01:06,095 [ERROR] __main__ — Error de base de datos para ACO-CH-28: no such table: incidentes
+2026-02-19 19:01:06,096 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-19 19:01:06,105 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-19 19:01:06,107 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-19 19:01:06,107 [WARNING] src.extractors.ypf — [YPF] Coordenadas inválidas en YPF-0000246524
+2026-02-19 19:01:06,108 [WARNING] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Sin coordenadas válidas, se omite transformación UTM.
+2026-02-19 19:01:06,109 [ERROR] __main__ — Error de base de datos para YPF-0000246524: no such table: incidentes
+2026-02-19 19:01:06,109 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-19 19:01:06,119 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-19 19:01:06,122 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-19 19:01:06,122 [WARNING] src.extractors.pcr — [PCR] Coordenadas inválidas en PCR-MDZ-21-2025-
+2026-02-19 19:01:06,124 [WARNING] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Sin coordenadas válidas, se omite transformación UTM.
+2026-02-19 19:01:06,124 [ERROR] __main__ — Error de base de datos para PCR-MDZ-21-2025-: no such table: incidentes
+2026-02-19 19:01:06,124 [INFO] __main__ — Proceso finalizado — Insertados: 0 | Omitidos: 1 | Errores: 5
+2026-02-19 19:03:44,354 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-19 19:03:44,355 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 6
+2026-02-19 19:03:44,358 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-19 19:03:44,378 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-19 19:03:44,404 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-19 19:03:44,411 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-19 19:03:44,416 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-19 19:03:44,416 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-19 19:03:44,422 [WARNING] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Formato no reconocido, se omite.
+2026-02-19 19:03:44,422 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-19 19:03:44,426 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-19 19:03:44,431 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-19 19:03:44,438 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-19 19:03:44,440 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-19 19:03:44,440 [WARNING] src.extractors.ypf — [YPF] Coordenadas inválidas en YPF-0000246524
+2026-02-19 19:03:44,441 [WARNING] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Sin coordenadas válidas, se omite transformación UTM.
+2026-02-19 19:03:44,442 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-19 19:03:44,447 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-19 19:03:44,449 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-19 19:03:44,449 [WARNING] src.extractors.pcr — [PCR] Coordenadas inválidas en PCR-MDZ-21-2025-
+2026-02-19 19:03:44,449 [WARNING] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Sin coordenadas válidas, se omite transformación UTM.
+2026-02-19 19:03:44,456 [INFO] __main__ — Proceso finalizado — Insertados: 4 | Omitidos: 1 | Errores: 1

@@ -52,6 +52,55 @@ def identify_extractor(text: str):
     return None
 
 
+def init_database(db_path: str) -> None:
+    """
+    Crea la base de datos y la tabla incidentes si no existen.
+    Se ejecuta siempre al inicio — si ya existe, no hace nada.
+    """
+    os.makedirs(os.path.dirname(db_path), exist_ok=True)
+    with sqlite3.connect(db_path) as conn:
+        conn.execute('''
+            CREATE TABLE IF NOT EXISTS incidentes (
+                NUM_INC         TEXT PRIMARY KEY,
+                OPERADOR        TEXT,
+                AREA_CONCE      TEXT,
+                YACIMIENTO      TEXT,
+                CUENCA          TEXT,
+                AREA_OPERATIVA  TEXT,
+                INSTALACION     TEXT,
+                TIPO_INST       TEXT,
+                SUBTIPO_INC     TEXT,
+                CAUSA           TEXT,
+                MAGNITUD        TEXT,
+                DESCRIPCION     TEXT,
+                FECHA_INC       TEXT,
+                HORA_INC        TEXT,
+                HORA_ESTIMADA   TEXT,
+                Y_COORD         REAL,
+                X_COORD         REAL,
+                COORD_EAST_M    REAL,
+                COORD_NORTH_M   REAL,
+                SRID_ORIGEN     TEXT,
+                VOL_D_m3        REAL,
+                VOL_R_m3        REAL,
+                VOL_GAS_m3      REAL,
+                AGUA_PCT        REAL,
+                AREA_AFECT_m2   REAL,
+                PPM_HC          TEXT,
+                RECURSOS        TEXT,
+                MEDIDAS         TEXT,
+                RESPONSABLE     TEXT,
+                UBICACION       TEXT,
+                GK_X_M          REAL,
+                GK_Y_M          REAL,
+                SRID_GK         TEXT,
+                CODIGO          TEXT
+            )
+        ''')
+        conn.commit()
+    logger.info(f"Base de datos lista: {db_path}")
+
+
 def process_pdf(path: str) -> dict | None:
     """
     Abre un PDF, identifica la operadora y extrae los datos del incidente.
@@ -134,7 +183,9 @@ def main():
     if not os.path.isdir(raw_dir):
         logger.error(f"Directorio no encontrado: {raw_dir}")
         return
-    os.makedirs(os.path.dirname(db_path), exist_ok=True)
+
+    # Inicializar base de datos (crea tabla si no existe)
+    init_database(db_path)
 
     pdfs = sorted(f for f in os.listdir(raw_dir) if f.lower().endswith('.pdf'))
     if not pdfs:
