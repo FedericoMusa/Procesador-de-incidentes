@@ -2,24 +2,42 @@ from pyproj import Transformer, CRS
 import re
 
 def gms_to_decimal(gms_str):
-    """Convierte formatos como 33°11'24" a decimal negativo para Argentina."""
-    parts = re.findall(r'\d+', gms_str)
+    """
+    Convierte GMS (Grados, Minutos, Segundos) a decimal negativo (Hemisferio Sur/Oeste).
+    Ejemplo: "33° 11' 24\"" -> -33.19
+    """
+    if not gms_str:
+        return None
+    # Extrae todos los números, incluyendo decimales en los segundos
+    parts = re.findall(r"[-+]?\d*\.\d+|\d+", gms_str)
     if len(parts) >= 3:
-        # Grados + (Minutos/60) + (Segundos/3600)
-        dec = float(parts[0]) + float(parts[1])/60 + float(parts[2])/3600
-        return -dec
+        degrees = float(parts[0])
+        minutes = float(parts[1])
+        seconds = float(parts[2])
+        decimal = degrees + (minutes / 60) + (seconds / 3600)
+        return -abs(decimal) # Fuerza negativo para Argentina
     return None
 
-def transform_to_cartesian(lat, lon, zone=19):
+def gk_to_decimal(x_gk, y_gk, faja=2):
     """
-    Convierte WGS84 (Lat/Lon) a coordenadas planas UTM (Metros).
-    Mendoza mayormente cae en la Zona 19S.
+    Convierte coordenadas Gauss-Krüger (Campo Inchauspe 69) a WGS84 Decimal.
+    Pluspetrol usa Faja 2.
     """
-    # Definimos la proyección de origen (WGS84) y destino (UTM 19S)
-    crs_wgs84 = CRS.from_epsg(4326)
-    crs_utm19s = CRS.from_epsg(32719)
-    
-    transformer = Transformer.from_crs(crs_wgs84, crs_utm19s, always_xy=True)
+    # Definición de EPSG para Campo Inchauspe Faja 2 (Argentina)
+    epsg_gk2 = f"epsg:2218{faja}" 
+    transformer = Transformer.from_crs(epsg_gk2, "epsg:4326", always_xy=True)
+    lon, lat = transformer.transform(x_gk, y_gk)
+    return lat, lon
+
+def transform_to_cartesian(lat, lon, epsg_destino=32719):
+    """
+    Convierte WGS84 a UTM (metros). 
+    Mendoza usa mayormente UTM Zona 19S (EPSG: 32719).
+    """
+    if lat is None or lon is None:
+        return None, None
+        
+    transformer = Transformer.from_crs("epsg:4326", f"epsg:{epsg_destino}", always_xy=True)
     easting, northing = transformer.transform(lon, lat)
     
-    return easting, northing
+    return round(easting, 2), round(northing, 2)
