@@ -129,8 +129,8 @@ class TestValidateCoordinates:
         assert extractor.validate_coordinates(-37.4246, -68.4049) is True
 
     def test_latitud_fuera_de_rango(self, extractor):
-        # Demasiado al sur (Patagonia)
-        assert extractor.validate_coordinates(-41.0, -68.0) is False
+        # Demasiado al sur (más allá de Chihuido de la Sierra Negra)
+        assert extractor.validate_coordinates(-40.0, -68.0) is False
 
     def test_longitud_fuera_de_rango(self, extractor):
         # Demasiado al este (Buenos Aires)

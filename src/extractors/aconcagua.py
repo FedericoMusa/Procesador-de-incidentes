@@ -56,7 +56,7 @@ class AconcaguaExtractor(BaseExtractor):
             flags=0x10 | 0x02)  # DOTALL | IGNORECASE
         data['CAUSA'] = self._find(
             r'Subtipo del evento causante\s+(.+?)(?=\n)', text) or "No especificado"
-        data['MAGNITUD'] = None  # Aconcagua no incluye campo de magnitud explícito
+        # Magnitud no viene en el PDF — se infiere por volumen al final del método
         data['RESPONSABLE'] = self._find(
             r'Reponsable de la Instalación\s+(.+)', text)
 
@@ -100,5 +100,14 @@ class AconcaguaExtractor(BaseExtractor):
         data['MEDIDAS'] = self._find(
             r'Medidas adoptadas\s+(.+?)(?=Dirección de e-mail|$)',
             text, flags=0x10 | 0x02)
+
+        # ── Magnitud inferida por volumen (fallback — PDF no la informa) ─
+        data['MAGNITUD'] = self.inferir_magnitud(
+            data.get('VOL_D_m3'), data.get('PPM_HC')
+        )
+        logger.info(
+            f"[Aconcagua] Magnitud inferida por volumen: {data['MAGNITUD']} "
+            f"(vol={data.get('VOL_D_m3')} m3, ppm={data.get('PPM_HC')})"
+        )
 
         return data

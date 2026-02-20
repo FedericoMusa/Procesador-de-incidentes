@@ -12,7 +12,7 @@ from datetime import datetime
 logger = logging.getLogger(__name__)
 
 # Rango geográfico válido para Mendoza (WGS84 grados decimales)
-LAT_MIN, LAT_MAX = -38.0, -32.0
+LAT_MIN, LAT_MAX = -39.0, -32.0  # -39.0 cubre Chihuido de la Sierra Negra (límite Mendoza/Neuquén)
 LON_MIN, LON_MAX = -70.0, -67.0
 
 
@@ -147,6 +147,34 @@ class BaseExtractor(ABC):
     # ------------------------------------------------------------------ #
     #  Validación geográfica                                              #
     # ------------------------------------------------------------------ #
+
+    def inferir_magnitud(self, vol_m3: float | None, ppm: float | None = None) -> str:
+        """
+        Infiere la magnitud del incidente a partir del volumen y PPM
+        según la normativa Res. 24-04 / Dec. 437-93.
+
+        Reglas (en orden de prioridad):
+          - HC > 50 PPM y vol > 5 m3  → "Mayor"
+          - HC < 50 PPM y vol > 10 m3 → "Mayor"
+          - vol <= 5 m3 (con HC > 50)  → "Menor"
+          - vol <= 10 m3 (con HC < 50) → "Menor"
+          - Sin datos suficientes       → "No determinado"
+
+        IMPORTANTE: este es un fallback cuando el PDF no informa magnitud.
+        El valor real puede diferir si el incidente involucra cauces de agua
+        u otros factores cualitativos que la normativa también considera.
+        """
+        if vol_m3 is None:
+            return "No determinado"
+
+        # PPM desconocida: usar umbral más conservador (HC > 50 asumido)
+        if ppm is None:
+            return "Mayor" if vol_m3 > 5 else "Menor"
+
+        if ppm > 50:
+            return "Mayor" if vol_m3 > 5 else "Menor"
+        else:
+            return "Mayor" if vol_m3 > 10 else "Menor"
 
     def validate_coordinates(self, lat: float | None,
                              lon: float | None) -> bool:

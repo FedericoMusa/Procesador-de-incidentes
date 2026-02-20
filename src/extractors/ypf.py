@@ -61,11 +61,12 @@ class YPFExtractor(BaseExtractor):
         data['HORA_INC'] = self._find(r'Hora de ocurrencia:\s*(\d{2}:\d{2})', text)
 
         # ── Coordenadas (DD directa, campo "Grados y decimales") ────────
-        # Formato: "Latitud (S): 37.348933° Longitud (W): 69.053400°"
+        # En el PDF real el label y el valor están en líneas separadas:
+        # "Grados y decimales:\nLatitud (S): 37.348933° Longitud (W): 69.053400°"
         lat_dd = self._find_float(
-            r'Grados y decimales:.*?Latitud\s*\(S\):\s*([\d.]+)°', text)
+            r'Grados y decimales:[\s\S]*?Latitud\s*\(S\):\s*([\d.]+)°', text)
         lon_dd = self._find_float(
-            r'Grados y decimales:.*?Longitud\s*\(W\):\s*([\d.]+)°', text)
+            r'Latitud\s*\(S\):\s*[\d.]+°\s*Longitud\s*\(W\):\s*([\d.]+)°', text)
 
         # Aplicar signo negativo (S y W son negativos en WGS84)
         data['Y_COORD'] = -abs(lat_dd) if lat_dd is not None else None

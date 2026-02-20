@@ -63,12 +63,12 @@ class PCRExtractor(BaseExtractor):
             r'Hora Estimada[:\s]+(\d{1,2}:\d{2})', text)
 
         # ── Coordenadas DMS con acento agudo (´) ────────────────────────
-        # Formato: "Lat. S= 34°57´51,5" S" y "Long. O= 69°31´59,52" O"
-        # El separador de minutos es ´ (U+00B4, acento agudo) no ' (U+0027)
+        # Formato real: "Lat. S= 34°57´51,5" S" y "Long. O= 69°31´59,52" O"
+        # Nota: el valor termina con espacio + letra hemisferio (S/O)
         lat_raw = self._find(
-            r'Lat\.?\s*S[=:\s]+([\d°º´\'\".,\s]+?)(?:\s*S\b)', text)
+            r'Lat\.\s*S=\s*([\d°º´\'\u00b4".,]+)', text)
         lon_raw = self._find(
-            r'Long\.?\s*O[=:\s]+([\d°º´\'\".,\s]+?)(?:\s*O\b)', text)
+            r'Long\.\s*O=\s*([\d°º´\'\u00b4".,]+)', text)
 
         lat_dd = self._parse_pcr_dms(lat_raw, "Latitud") if lat_raw else None
         lon_dd = self._parse_pcr_dms(lon_raw, "Longitud") if lon_raw else None
@@ -104,6 +104,19 @@ class PCRExtractor(BaseExtractor):
         data['MEDIDAS'] = self._find(
             r'Medidas adoptadas[:\s]+(.+?)(?=El tiempo estimado|$)',
             text, flags=re.DOTALL | re.IGNORECASE)
+
+        # ── Magnitud: intentar desde tabla, sino inferir por volumen ────
+        magnitud_tabla = self._extract_magnitud(text)
+        if magnitud_tabla:
+            data['MAGNITUD'] = magnitud_tabla
+        else:
+            data['MAGNITUD'] = self.inferir_magnitud(
+                data.get('VOL_D_m3'), data.get('PPM_HC')
+            )
+            logger.info(
+                f"[PCR] Magnitud inferida por volumen: {data['MAGNITUD']} "
+                f"(vol={data.get('VOL_D_m3')} m3)"
+            )
 
         return data
 
