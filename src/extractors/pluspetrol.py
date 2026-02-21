@@ -53,15 +53,15 @@ class PluspetrolExtractor(BaseExtractor):
 
         # ── Coordenadas ─────────────────────────────────────────────────
         # Gauss-Krüger (metros) — se guardan como referencia
-        gk_x = self._find_float(r'X[:\s]+([\d.]+)\s+Y[:\s]', text)
-        gk_y = self._find_float(r'Y[:\s]+([\d.]+)\s+\(Gauss', text)
+        gk_x = self._find_float(r'X[:\s]+([\d.,]+)\s+Y[:\s]', text)
+        gk_y = self._find_float(r'Y[:\s]+([\d.,]+)\s+\(Gauss', text)
         data['GK_X_M'] = gk_x
         data['GK_Y_M'] = gk_y
         data['SRID_GK'] = "Gauss-Krüger Faja 2 Campo Inchauspe 69'"
 
         # WGS84 DD — formato: "Long.: -68.4049142 Lat.: -37.4246588"
-        lon_dd = self._find_float(r'Long\.\s*:\s*(-?[\d.]+)', text)
-        lat_dd = self._find_float(r'Lat\.\s*:\s*(-?[\d.]+)', text)
+        lon_dd = self._find_float(r'Long\.\s*:\s*(-?[\d.,]+)', text)
+        lat_dd = self._find_float(r'Lat\.\s*:\s*(-?[\d.,]+)', text)
 
         # Las coordenadas ya vienen con signo negativo en el PDF
         data['Y_COORD'] = lat_dd

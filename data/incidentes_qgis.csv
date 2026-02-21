@@ -1,0 +1,30 @@
+﻿NUM_INC,OPERADOR,AREA_CONCESION,YACIMIENTO,MAGNITUD,TIPO_INSTALACION,SUBTIPO,FECHA,DESCRIPCION RESUMIDA,LAT,LON,VOL_M3,AGUA_PCT,AREA_AFECT_m2,RECURSOS_AFECTADOS
+PETSUD-541,Petróleos Sudamericanos,La Ventana,Vaca Muerta,Menor,Cañería de conducción,Crudo,05-02-2026,La rotura de la cañería se produce antes de la llegada al colector en la,-33.453611,-68.623889,3.2,90.0,300.0,"Suelo, Vegetacion"
+ACO-CH-28,Aconcagua Energía S.A.,Chañares Herrados,Chañares Herrados,Menor,Pozo Productor,Detalle del incidente,08-09-2025,"Se produce falla de material en cañería de conducción soterrada, de
+ERFV, sobre camino secundario",-33.3465,-68.9873,1.5,48.0,50.0,
+PETSUD-468,Petróleos Sudamericanos,Vizcacheras,Vizcacheras,Menor,Línea impulsión Bba N°1,Crudo,10-01-2026,Se produce rotura en línea de impulsión de bomba despacho,-33.587511,-68.389331,0.5,98.0,100.0,Suelo
+PP-06/26,Pluspetrol S.A.,JCP,JCP,BAJA,,Incendio / explosión,10-02-2026,,-37.4246588,-68.4049142,0.015,97.0,0.5,
+YPF-0000246524,YPF S.A.,CHIHUIDO DE LA SIERRA NEGRA,DESFILADERO BAYO,Menor,CAÑERIA CONDUCCIÓN,DERRAME DE AGUA DE PRODUCCIÓN,10-10-2025,Se observa perdida en linea conducción pozo sumidero DB.X-3,-37.348933,-69.0534,8.5,99.8,1250.0,"Suelo, Cauce aluvional"
+PETSUD-562,Petróleos Sudamericanos,La Ventana,Punta de las Bardas,Menor,cañería inyeccion PB-191,Crudo,12-02-2026,La perdida se produce en Cañería,-33.516006,-68.656894,7.0,100.0,200.0,Suelo
+PETSUD-567,Petróleos Sudamericanos,La Ventana,La Ventana,Menor,cañería  LV-20  b/p,Crudo,16-02-2026,La rotura se produce por hundimiento de,-33.335556,-68.688333,0.25,97.0,50.0,Suelo
+PETSUD-568,Petróleos Sudamericanos,La Ventana,Vaca Muerta,Menor,Cañería de conduccion VM-64,Crudo,16-02-2026,La rotura se produce en de cañería de,-33.475278,-68.623333,0.35,97.0,30.0,"Suelo, Vegetacion"
+PP-08/26,Pluspetrol S.A.,JCP,JCP,BAJA,,Incendio / explosión,17-02-2026,,-37.399075274,-68.450136936,0.15,95.0,20.0,
+PETSUD-569,Petróleos Sudamericanos,Barrancas,Barrancas,Menor,Niple de entre caño de puente de producción B 542,Crudo,17-02-2026,Se produce pinchadura niple de entre caño de puente de producción B,-33.190397,-68.749178,0.06,80.0,6.0,Suelo
+PETSUD-570,Petróleos Sudamericanos,Barrancas,Barrancas,Menor,Línea de admisión de bombas de despacho,Crudo,17-02-2026,"Se produce pinchadura aérea en línea de 8"" de admisión de bombas de",-33.130158,-68.7861,0.5,95.0,50.0,Suelo
+PETSUD-571,Petróleos Sudamericanos,La Ventana,Río Tunuyán,Menor,Cañería control colector N°1,Crudo,17-02-2026,La rotura se produce en de cañería de,-33.288256,-68.704158,2.5,97.0,150.0,Suelo
+PETSUD-572,Petróleos Sudamericanos,Vizcacheras,Vizcacheras,Menor,Pozo productor Bat-4,Crudo,17-02-2026,Rotura linea de conduccion de pozo VI-232,-33.577675,-68.403486,1.9,87.7,190.0,"Suelo, Vegetacion"
+YPF-0000251489,YPF S.A.,PASO DE LAS BARDAS NORTE,PASO DE LAS BARDAS NORTE,Menor,BATERIA,DERRAME DE CRUDO,17-02-2026,"Se observa perdida en línea de ingreso a tanque general, debido a",-37.13812,-69.474234,0.03,90.0,3.0,Suelo
+PCR-MDZ-21-2025-,Petroquímica Comodoro Rivadavia S.A.,El Sosneado,,Menor,,Incendio y/o explosiones,18-02-2026,"derramados, riesgos inminentes a cauces de agua, poblaciones cercanas, daño al suelo, flora, fauna, 
+etc.: 
+ 
+Siendo las...",-34.964306,-69.5332,1.1,40.0,11.0,
+PETSUD-573,Petróleos Sudamericanos,Barrancas,Estructura Cruz de Piedra,Menor,Línea de control de colector ECP-71,Crudo,18-02-2026,Se produce pinchadura aérea en línea de control del,-33.065,-68.798333,0.1,75.0,7.0,Suelo
+PETSUD-574,Petróleos Sudamericanos,Barrancas,Barrancas,Menor,Cañería troncal  Sat 15,Agua de producción,18-02-2026,Se produce rotura soterrada de linea troncal,-33.19,-68.780833,4.0,100.0,300.0,Suelo
+PETSUD-575,Petróleos Sudamericanos,La Ventana,Punta de las Bardas,Menor,Cuerpo del colector 2a,Crudo,18-02-2026,"Rotura del cuerpo de producción general,",-33.476944,-68.684444,4.0,90.0,200.0,"Suelo, Cauce aluvional, Vegetacion"
+PETSUD-576,Petróleos Sudamericanos,La Ventana,La Ventana,Menor,Cañería de conducción,Crudo,19-02-2026,Se produce la rotura de la cañería de cañería,-33.469167,-68.622222,0.5,90.0,10.0,"Suelo, Vegetacion"
+PETSUD-577,Petróleos Sudamericanos,La Ventana,Punta de las Bardas,Menor,Puente de producción,Crudo,19-02-2026,"Rotura de un niple de boca de pozo, afecta la",-33.544167,-68.6675,0.1,90.0,15.0,Suelo
+PETSUD-578,Petróleos Sudamericanos,La Ventana,Punta de las Bardas,Menor,Colector 8,Crudo,19-02-2026,"Rotura de cañería de control, afecta la zona",-33.461111,-68.637222,1.0,90.0,150.0,Suelo
+YPF-0000251563,YPF S.A.,CHIHUIDO DE LA SIERRA NEGRA,PUESTO MOLINA,Menor,CAÑERIA CONDUCCIÓN,DERRAME DE CRUDO,19-02-2026,"Se observa perdida de liquido en locación pmo-126, la cañeria pertenece",-37.198,-69.122833,0.15,98.0,25.0,"Suelo, Instalaciones propias"
+PP-09/26,Pluspetrol S.A.,JCP,JCP,BAJA,,Incendio / explosión,20-02-2026,,-37.466149,-68.258762,0.12,100.0,20.0,
+PETSUD-579,Petróleos Sudamericanos,La Ventana,Vaca Muerta,Menor,Vinculación cañería pozos VM-10 y VM-244,Crudo,20-02-2026,Rotura de cañería de vinculación de los pozos VM-,-32.486667,-68.606667,0.7,90.0,50.0,Suelo
+PETSUD-580,Petróleos Sudamericanos,La Ventana,Vaca Muerta,Menor,Línea de control Colector 2,Crudo,20-02-2026,Rotura en línea de control colector 2A Bat,-33.484444,-68.605278,0.4,90.0,40.0,Suelo

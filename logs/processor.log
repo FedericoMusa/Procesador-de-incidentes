@@ -201,3 +201,1277 @@
 2026-02-20 20:00:49,546 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
 2026-02-20 20:00:49,558 [INFO] __main__ — Proceso finalizado — Insertados: 4 | Omitidos: 1 | Errores: 1
 2026-02-20 20:00:49,823 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 20:07:48,998 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 20:07:48,999 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 20:07:48,999 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 20:07:49,011 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:07:49,030 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 20:07:49,030 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 20:07:49,043 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:07:49,053 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 20:07:49,054 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 20:07:49,073 [WARNING] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,074 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 20:07:49,084 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 20:07:49,091 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 20:07:49,104 [INFO] __main__ — Duplicado ignorado: ACO-CH-28
+2026-02-20 20:07:49,104 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 20:07:49,122 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 20:07:49,130 [INFO] __main__ — Duplicado ignorado: YPF-0000246524
+2026-02-20 20:07:49,131 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:07:49,139 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:07:49,145 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:07:49,152 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 20:07:49,152 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 20:07:49,163 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:07:49,173 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 20:07:49,183 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:07:49,189 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 20:07:49,199 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,206 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 20:07:49,226 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,226 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 20:07:49,240 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,241 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 20:07:49,257 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,258 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 20:07:49,270 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,271 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 20:07:49,281 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,282 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 20:07:49,296 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,296 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 20:07:49,305 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,306 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 20:07:49,315 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,316 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 20:07:49,327 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,327 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 20:07:49,338 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,339 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 20:07:49,347 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,348 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 20:07:49,357 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,357 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 20:07:49,365 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,366 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 20:07:49,374 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,375 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 20:07:49,384 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Formato no reconocido, se omite.
+2026-02-20 20:07:49,385 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 20:07:49,395 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 20:07:49,402 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 20:07:49,411 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 20:07:49,418 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:07:49,427 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:07:49,429 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:07:49,435 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 20:07:49,441 [INFO] __main__ — Proceso finalizado — Insertados: 4 | Omitidos: 17 | Errores: 6
+2026-02-20 20:07:49,591 [ERROR] __main__ — Error exportando Excel: [Errno 13] Permission denied: 'data\\incidentes.xlsx'
+2026-02-20 20:08:14,263 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 20:08:14,264 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 20:08:14,264 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 20:08:14,278 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:08:14,290 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 20:08:14,290 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 20:08:14,297 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:08:14,304 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 20:08:14,305 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 20:08:14,311 [WARNING] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,311 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 20:08:14,315 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 20:08:14,318 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 20:08:14,323 [INFO] __main__ — Duplicado ignorado: ACO-CH-28
+2026-02-20 20:08:14,323 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 20:08:14,330 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 20:08:14,337 [INFO] __main__ — Duplicado ignorado: YPF-0000246524
+2026-02-20 20:08:14,337 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:08:14,345 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:08:14,348 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:08:14,354 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 20:08:14,354 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 20:08:14,361 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:08:14,367 [INFO] __main__ — Duplicado ignorado: PP-08/26
+2026-02-20 20:08:14,368 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 20:08:14,375 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:08:14,380 [INFO] __main__ — Duplicado ignorado: PP-09/26
+2026-02-20 20:08:14,380 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 20:08:14,388 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,389 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 20:08:14,396 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,396 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 20:08:14,403 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,403 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 20:08:14,409 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,409 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 20:08:14,415 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,416 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 20:08:14,423 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,423 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 20:08:14,429 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,429 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 20:08:14,435 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,435 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 20:08:14,441 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,441 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 20:08:14,447 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,448 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 20:08:14,454 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,454 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 20:08:14,460 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,461 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 20:08:14,467 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,467 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 20:08:14,475 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,475 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 20:08:14,481 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,482 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 20:08:14,490 [WARNING] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Formato no reconocido, se omite.
+2026-02-20 20:08:14,490 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 20:08:14,499 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 20:08:14,505 [INFO] __main__ — Duplicado ignorado: YPF-0000251489
+2026-02-20 20:08:14,505 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 20:08:14,511 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 20:08:14,516 [INFO] __main__ — Duplicado ignorado: YPF-0000251563
+2026-02-20 20:08:14,517 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:08:14,526 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:08:14,527 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:08:14,532 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 20:08:14,532 [INFO] __main__ — Proceso finalizado — Insertados: 0 | Omitidos: 17 | Errores: 10
+2026-02-20 20:08:14,713 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 20:11:54,113 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 20:11:54,113 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 20:11:54,115 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 20:11:54,129 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:11:54,144 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 20:11:54,152 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:11:54,158 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 20:11:54,158 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 20:11:54,165 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,172 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 20:11:54,177 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 20:11:54,179 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 20:11:54,184 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 20:11:54,209 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 20:11:54,223 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:11:54,237 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:11:54,246 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:11:54,258 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 20:11:54,277 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:11:54,285 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 20:11:54,303 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:11:54,319 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 20:11:54,334 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,336 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:11:54,336 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:11:54,337 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:11:54,337 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-468. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:11:54,339 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 20:11:54,352 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,353 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:11:54,353 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:11:54,353 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:11:54,354 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-541. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:11:54,354 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 20:11:54,363 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,371 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 20:11:54,382 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,389 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 20:11:54,399 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,406 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 20:11:54,420 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,430 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 20:11:54,439 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,447 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 20:11:54,455 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,456 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:11:54,456 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:11:54,457 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:11:54,457 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-572. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:11:54,458 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 20:11:54,467 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,467 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:11:54,468 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:11:54,468 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:11:54,469 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-573. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:11:54,470 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 20:11:54,479 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,480 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:11:54,481 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:11:54,481 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:11:54,481 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-574. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:11:54,482 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 20:11:54,493 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,494 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:11:54,495 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:11:54,495 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:11:54,495 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-575. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:11:54,496 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 20:11:54,504 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,504 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:11:54,505 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:11:54,505 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:11:54,506 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-576. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:11:54,506 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 20:11:54,515 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,515 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:11:54,516 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:11:54,516 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:11:54,516 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-577. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:11:54,517 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 20:11:54,525 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,526 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:11:54,526 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:11:54,527 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:11:54,527 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-578. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:11:54,528 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 20:11:54,535 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,536 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '32°'
+2026-02-20 20:11:54,536 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:11:54,536 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:11:54,537 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-579. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:11:54,537 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 20:11:54,545 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:11:54,546 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:11:54,546 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:11:54,546 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:11:54,547 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-580. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:11:54,547 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 20:11:54,558 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 20:11:54,566 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 20:11:54,572 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 20:11:54,584 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:11:54,597 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:11:54,598 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:11:54,603 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 20:11:54,612 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 20:11:54,802 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 20:14:19,936 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 20:14:19,937 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 20:14:19,938 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 20:14:19,950 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:14:19,964 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 20:14:19,971 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:14:19,977 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 20:14:19,977 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 20:14:19,982 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:19,989 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 20:14:19,994 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 20:14:19,995 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 20:14:19,999 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 20:14:20,011 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 20:14:20,016 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:14:20,025 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:14:20,028 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:14:20,033 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 20:14:20,043 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:14:20,047 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 20:14:20,057 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:14:20,062 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 20:14:20,070 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,071 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:14:20,071 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:14:20,071 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:14:20,072 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-468. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:14:20,072 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 20:14:20,089 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,090 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:14:20,090 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:14:20,090 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:14:20,090 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-541. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:14:20,091 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 20:14:20,099 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,112 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 20:14:20,122 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,129 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 20:14:20,137 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,143 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 20:14:20,151 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,158 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 20:14:20,165 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,172 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 20:14:20,180 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,181 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:14:20,181 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:14:20,182 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:14:20,182 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-572. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:14:20,183 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 20:14:20,191 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,191 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:14:20,192 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:14:20,192 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:14:20,192 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-573. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:14:20,193 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 20:14:20,205 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,206 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:14:20,207 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:14:20,207 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:14:20,207 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-574. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:14:20,208 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 20:14:20,215 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,216 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:14:20,216 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:14:20,216 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:14:20,216 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-575. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:14:20,217 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 20:14:20,226 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,227 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:14:20,227 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:14:20,227 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:14:20,228 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-576. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:14:20,228 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 20:14:20,236 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,237 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:14:20,237 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:14:20,238 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:14:20,238 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-577. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:14:20,239 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 20:14:20,246 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,247 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:14:20,247 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:14:20,247 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:14:20,247 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-578. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:14:20,248 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 20:14:20,259 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,260 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '32°'
+2026-02-20 20:14:20,260 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:14:20,261 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:14:20,261 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-579. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:14:20,262 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 20:14:20,270 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:14:20,270 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33°'
+2026-02-20 20:14:20,271 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68°'
+2026-02-20 20:14:20,271 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:14:20,272 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-580. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:14:20,273 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 20:14:20,291 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 20:14:20,301 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 20:14:20,311 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 20:14:20,321 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:14:20,338 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:14:20,340 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:14:20,346 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 20:14:20,352 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 20:14:20,587 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 20:38:51,902 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 20:38:51,904 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 20:38:51,907 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 20:38:51,930 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:38:51,958 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 20:38:51,978 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:38:51,992 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 20:38:51,993 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 20:38:52,009 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,027 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 20:38:52,036 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 20:38:52,039 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 20:38:52,047 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 20:38:52,063 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 20:38:52,076 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:38:52,092 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:38:52,097 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:38:52,113 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 20:38:52,136 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:38:52,152 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 20:38:52,177 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:38:52,192 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 20:38:52,207 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,209 [WARNING] src.extractors.base_extractor — Coordenadas fuera de Mendoza: lat=-91.584, lon=-106.693167. Rango válido lat [-39.0, -32.0], lon [-70.0, -67.0].
+2026-02-20 20:38:52,210 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-468. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:38:52,211 [ERROR] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Error en transformación UTM: Coordenadas fuera de rango global: lat=-91.584, lon=-106.693167
+2026-02-20 20:38:52,212 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 20:38:52,233 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,243 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 20:38:52,252 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,261 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 20:38:52,269 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,278 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 20:38:52,287 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,296 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 20:38:52,304 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,312 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 20:38:52,320 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,329 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 20:38:52,336 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,347 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 20:38:52,354 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,363 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 20:38:52,371 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,379 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 20:38:52,387 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,394 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 20:38:52,405 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,414 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 20:38:52,423 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,432 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 20:38:52,440 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,448 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 20:38:52,456 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,464 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 20:38:52,471 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:38:52,479 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 20:38:52,489 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 20:38:52,498 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 20:38:52,504 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 20:38:52,515 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:38:52,529 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:38:52,530 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:38:52,535 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 20:38:52,542 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 20:38:52,752 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 20:39:22,740 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 20:39:22,740 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 20:39:22,743 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 20:39:22,759 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:39:22,773 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 20:39:22,782 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:39:22,787 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 20:39:22,787 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 20:39:22,796 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:22,802 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 20:39:22,808 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 20:39:22,809 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 20:39:22,813 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 20:39:22,820 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 20:39:22,825 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:39:22,833 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:39:22,835 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:39:22,839 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 20:39:22,847 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:39:22,851 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 20:39:22,860 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:39:22,865 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 20:39:22,873 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:22,874 [WARNING] src.extractors.base_extractor — Coordenadas fuera de Mendoza: lat=-91.584, lon=-106.693167. Rango válido lat [-39.0, -32.0], lon [-70.0, -67.0].
+2026-02-20 20:39:22,874 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-468. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:39:22,875 [ERROR] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Error en transformación UTM: Coordenadas fuera de rango global: lat=-91.584, lon=-106.693167
+2026-02-20 20:39:22,875 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 20:39:22,884 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:22,895 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 20:39:22,904 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:22,913 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 20:39:22,919 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:22,926 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 20:39:22,934 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:22,941 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 20:39:22,949 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:22,955 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 20:39:22,962 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:22,968 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 20:39:22,978 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:22,984 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 20:39:22,993 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:22,999 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 20:39:23,008 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:23,013 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 20:39:23,021 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:23,028 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 20:39:23,035 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:23,041 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 20:39:23,048 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:23,053 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 20:39:23,062 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:23,068 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 20:39:23,075 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:23,080 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 20:39:23,087 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:39:23,094 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 20:39:23,103 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 20:39:23,110 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 20:39:23,115 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 20:39:23,122 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:39:23,148 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:39:23,150 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:39:23,161 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 20:39:23,170 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 20:39:23,426 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 20:46:13,641 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 20:46:13,642 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 20:46:13,645 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 20:46:13,666 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:46:13,680 [ERROR] __main__ — Error de base de datos para PP-06/26: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,680 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 20:46:13,687 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:46:13,693 [ERROR] __main__ — Error de base de datos para PP-06/26: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,694 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 20:46:13,700 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,708 [ERROR] __main__ — Error de base de datos para PETSUD-562: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,708 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 20:46:13,715 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 20:46:13,716 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 20:46:13,720 [ERROR] __main__ — Error de base de datos para ACO-CH-28: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,720 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 20:46:13,728 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 20:46:13,735 [ERROR] __main__ — Error de base de datos para YPF-0000246524: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,735 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:46:13,742 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:46:13,745 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:46:13,749 [ERROR] __main__ — Error de base de datos para PCR-MDZ-21-2025-: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,749 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 20:46:13,756 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:46:13,762 [ERROR] __main__ — Error de base de datos para PP-08/26: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,762 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 20:46:13,770 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:46:13,777 [ERROR] __main__ — Error de base de datos para PP-09/26: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,777 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 20:46:13,784 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,785 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33° 3515,04''      68° 2321,59'''
+2026-02-20 20:46:13,785 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68° 2321,59''       50'
+2026-02-20 20:46:13,786 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:46:13,786 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-468. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:46:13,786 [ERROR] __main__ — Error de base de datos para PETSUD-468: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,787 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 20:46:13,794 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,799 [ERROR] __main__ — Error de base de datos para PETSUD-541: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,800 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 20:46:13,805 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,811 [ERROR] __main__ — Error de base de datos para PETSUD-567: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,811 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 20:46:13,817 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,822 [ERROR] __main__ — Error de base de datos para PETSUD-568: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,822 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 20:46:13,829 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,834 [ERROR] __main__ — Error de base de datos para PETSUD-569: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,834 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 20:46:13,843 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,847 [ERROR] __main__ — Error de base de datos para PETSUD-570: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,848 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 20:46:13,853 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,860 [ERROR] __main__ — Error de base de datos para PETSUD-571: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,861 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 20:46:13,866 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,872 [ERROR] __main__ — Error de base de datos para PETSUD-572: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,872 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 20:46:13,879 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,884 [ERROR] __main__ — Error de base de datos para PETSUD-573: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,884 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 20:46:13,892 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,898 [ERROR] __main__ — Error de base de datos para PETSUD-574: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,898 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 20:46:13,906 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,914 [ERROR] __main__ — Error de base de datos para PETSUD-575: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,914 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 20:46:13,925 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,949 [ERROR] __main__ — Error de base de datos para PETSUD-576: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,953 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 20:46:13,967 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:13,978 [ERROR] __main__ — Error de base de datos para PETSUD-577: near "RESUMIDA": syntax error
+2026-02-20 20:46:13,979 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 20:46:13,998 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:14,012 [ERROR] __main__ — Error de base de datos para PETSUD-578: near "RESUMIDA": syntax error
+2026-02-20 20:46:14,013 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 20:46:14,024 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:14,042 [ERROR] __main__ — Error de base de datos para PETSUD-579: near "RESUMIDA": syntax error
+2026-02-20 20:46:14,042 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 20:46:14,053 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:46:14,064 [ERROR] __main__ — Error de base de datos para PETSUD-580: near "RESUMIDA": syntax error
+2026-02-20 20:46:14,065 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 20:46:14,079 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 20:46:14,086 [ERROR] __main__ — Error de base de datos para YPF-0000251489: near "RESUMIDA": syntax error
+2026-02-20 20:46:14,086 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 20:46:14,096 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 20:46:14,103 [ERROR] __main__ — Error de base de datos para YPF-0000251563: near "RESUMIDA": syntax error
+2026-02-20 20:46:14,104 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:46:14,119 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:46:14,121 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:46:14,131 [ERROR] __main__ — Error de base de datos para PCR-MDZ-21-2025-: near "RESUMIDA": syntax error
+2026-02-20 20:46:14,131 [INFO] __main__ — Proceso finalizado — Insertados: 0 | Omitidos: 0 | Errores: 27
+2026-02-20 20:46:14,359 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 20:49:39,180 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 20:49:39,181 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 20:49:39,183 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 20:49:39,194 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:49:39,204 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 20:49:39,210 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:49:39,217 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 20:49:39,217 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 20:49:39,224 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,231 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 20:49:39,238 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 20:49:39,240 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 20:49:39,245 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 20:49:39,254 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 20:49:39,267 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:49:39,286 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:49:39,291 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:49:39,298 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 20:49:39,314 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:49:39,325 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 20:49:39,334 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:49:39,341 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 20:49:39,351 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,352 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '33° 3515,04''      68° 2321,59'''
+2026-02-20 20:49:39,353 [WARNING] src.extractors.base_extractor — No se pudo parsear coordenada DMS: '68° 2321,59''       50'
+2026-02-20 20:49:39,353 [WARNING] src.extractors.base_extractor — Coordenadas ausentes, registro rechazado.
+2026-02-20 20:49:39,354 [WARNING] src.extractors.petsud — [PetSud] Coordenadas inválidas en PETSUD-468. Verificar si hay error de tipeo en el informe original.
+2026-02-20 20:49:39,355 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 20:49:39,366 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,373 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 20:49:39,382 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,393 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 20:49:39,409 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,422 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 20:49:39,438 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,452 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 20:49:39,470 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,482 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 20:49:39,493 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,508 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 20:49:39,519 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,527 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 20:49:39,540 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,549 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 20:49:39,560 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,571 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 20:49:39,581 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,590 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 20:49:39,601 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,609 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 20:49:39,622 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,629 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 20:49:39,642 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,652 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 20:49:39,661 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,672 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 20:49:39,680 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:49:39,689 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 20:49:39,702 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 20:49:39,708 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 20:49:39,715 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 20:49:39,721 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:49:39,732 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:49:39,733 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:49:39,739 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 20:49:39,745 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 20:49:39,970 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 20:55:09,010 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 20:55:09,011 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 20:55:09,013 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 20:55:09,027 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:55:09,039 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 20:55:09,051 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:55:09,057 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 20:55:09,057 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 20:55:09,065 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,074 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 20:55:09,080 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 20:55:09,083 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 20:55:09,091 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 20:55:09,104 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 20:55:09,112 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:55:09,122 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:55:09,125 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:55:09,131 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 20:55:09,140 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:55:09,146 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 20:55:09,156 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:55:09,162 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 20:55:09,172 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,178 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 20:55:09,190 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,195 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 20:55:09,203 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,210 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 20:55:09,219 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,226 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 20:55:09,235 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,241 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 20:55:09,248 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,255 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 20:55:09,262 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,268 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 20:55:09,277 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,283 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 20:55:09,291 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,296 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 20:55:09,304 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,310 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 20:55:09,316 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,322 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 20:55:09,329 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,336 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 20:55:09,342 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,348 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 20:55:09,355 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,361 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 20:55:09,372 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,377 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 20:55:09,384 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:55:09,391 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 20:55:09,402 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 20:55:09,409 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 20:55:09,414 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 20:55:09,420 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:55:09,430 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:55:09,433 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:55:09,443 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 20:55:09,476 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 20:55:09,679 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 20:56:12,334 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 20:56:12,334 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 20:56:12,337 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 20:56:12,354 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:56:12,372 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 20:56:12,386 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:56:12,394 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 20:56:12,395 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 20:56:12,406 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,427 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 20:56:12,436 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 20:56:12,439 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 20:56:12,446 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 20:56:12,467 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 20:56:12,481 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:56:12,504 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:56:12,512 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:56:12,523 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 20:56:12,540 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:56:12,551 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 20:56:12,565 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 20:56:12,573 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 20:56:12,586 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,593 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 20:56:12,606 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,614 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 20:56:12,624 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,631 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 20:56:12,641 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,649 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 20:56:12,659 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,667 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 20:56:12,678 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,687 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 20:56:12,694 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,702 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 20:56:12,711 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,719 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 20:56:12,728 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,735 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 20:56:12,743 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,749 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 20:56:12,760 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,765 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 20:56:12,773 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,779 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 20:56:12,788 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,794 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 20:56:12,802 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,808 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 20:56:12,816 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,823 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 20:56:12,830 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 20:56:12,839 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 20:56:12,850 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 20:56:12,859 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 20:56:12,867 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 20:56:12,875 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 20:56:12,886 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 20:56:12,887 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 20:56:12,892 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 20:56:12,900 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 20:56:13,115 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 21:00:53,549 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 21:00:53,552 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 21:00:53,554 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 21:00:53,569 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:00:53,585 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 21:00:53,597 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:00:53,617 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 21:00:53,620 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 21:00:53,630 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,651 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 21:00:53,668 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 21:00:53,673 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 21:00:53,687 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 21:00:53,701 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 21:00:53,712 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:00:53,725 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:00:53,729 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:00:53,740 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 21:00:53,754 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:00:53,761 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 21:00:53,780 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:00:53,793 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 21:00:53,807 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,815 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 21:00:53,826 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,834 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 21:00:53,844 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,851 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 21:00:53,860 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,867 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 21:00:53,876 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,882 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 21:00:53,891 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,898 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 21:00:53,908 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,914 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 21:00:53,923 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,929 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 21:00:53,938 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,943 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 21:00:53,950 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,957 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 21:00:53,964 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,971 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 21:00:53,978 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,983 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 21:00:53,993 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:53,998 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 21:00:54,009 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:54,015 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 21:00:54,024 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:54,030 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 21:00:54,038 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:00:54,044 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 21:00:54,055 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 21:00:54,061 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 21:00:54,067 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 21:00:54,074 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:00:54,083 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:00:54,084 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:00:54,089 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 21:00:54,096 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 21:00:54,311 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 21:06:34,537 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 21:06:34,537 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 21:06:34,540 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 21:06:34,550 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:06:34,561 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 21:06:34,567 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:06:34,573 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 21:06:34,573 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 21:06:34,580 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,587 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 21:06:34,592 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 21:06:34,595 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 21:06:34,599 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 21:06:34,608 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 21:06:34,616 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:06:34,624 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:06:34,628 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:06:34,635 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 21:06:34,644 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:06:34,655 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 21:06:34,675 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:06:34,690 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 21:06:34,710 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,719 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 21:06:34,735 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,745 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 21:06:34,758 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,769 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 21:06:34,781 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,788 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 21:06:34,796 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,803 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 21:06:34,811 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,819 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 21:06:34,828 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,835 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 21:06:34,842 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,849 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 21:06:34,867 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,881 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 21:06:34,894 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,906 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 21:06:34,918 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,932 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 21:06:34,949 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,961 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 21:06:34,979 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:34,990 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 21:06:35,004 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:35,015 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 21:06:35,028 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:35,036 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 21:06:35,048 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:06:35,056 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 21:06:35,070 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 21:06:35,081 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 21:06:35,090 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 21:06:35,100 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:06:35,112 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:06:35,113 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:06:35,119 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 21:06:35,127 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 21:06:35,356 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 21:08:34,418 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 21:08:34,419 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 21:08:34,421 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 21:08:34,441 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:08:34,453 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 21:08:34,460 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:08:34,464 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 21:08:34,464 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 21:08:34,472 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,479 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 21:08:34,484 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 21:08:34,486 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 21:08:34,491 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 21:08:34,499 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 21:08:34,506 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:08:34,514 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:08:34,517 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:08:34,523 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 21:08:34,530 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:08:34,537 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 21:08:34,544 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:08:34,550 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 21:08:34,558 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,563 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 21:08:34,576 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,581 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 21:08:34,589 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,597 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 21:08:34,608 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,614 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 21:08:34,624 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,631 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 21:08:34,644 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,653 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 21:08:34,660 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,671 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 21:08:34,679 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,686 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 21:08:34,693 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,701 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 21:08:34,710 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,718 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 21:08:34,726 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,734 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 21:08:34,742 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,748 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 21:08:34,757 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,763 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 21:08:34,772 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,778 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 21:08:34,788 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,794 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 21:08:34,804 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:08:34,810 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 21:08:34,820 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 21:08:34,826 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 21:08:34,834 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 21:08:34,840 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:08:34,849 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:08:34,850 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:08:34,856 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 21:08:34,863 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 21:08:35,069 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 21:24:02,544 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 21:24:02,545 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 21:24:02,548 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 21:24:02,569 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:24:02,581 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 21:24:02,588 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:24:02,593 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 21:24:02,593 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 21:24:02,598 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,605 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 21:24:02,609 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 21:24:02,610 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 21:24:02,615 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 21:24:02,624 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 21:24:02,630 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:24:02,642 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:24:02,646 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:24:02,655 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 21:24:02,671 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:24:02,681 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 21:24:02,691 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:24:02,700 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 21:24:02,709 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,716 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 21:24:02,725 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,732 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 21:24:02,740 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,746 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 21:24:02,755 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,762 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 21:24:02,770 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,777 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 21:24:02,786 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,793 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 21:24:02,801 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,808 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 21:24:02,817 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,824 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 21:24:02,843 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,852 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 21:24:02,867 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,881 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 21:24:02,899 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,915 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 21:24:02,929 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,939 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 21:24:02,957 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,969 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 21:24:02,980 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:02,991 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 21:24:03,002 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:03,012 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 21:24:03,023 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:24:03,032 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 21:24:03,046 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 21:24:03,058 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 21:24:03,069 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 21:24:03,078 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:24:03,089 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:24:03,091 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:24:03,098 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 21:24:03,105 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 21:24:03,333 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 21:32:01,408 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 21:32:01,409 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 21:32:01,412 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 21:32:01,426 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:32:01,443 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 21:32:01,452 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:32:01,458 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 21:32:01,459 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 21:32:01,466 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,476 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 21:32:01,482 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 21:32:01,485 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 21:32:01,491 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 21:32:01,502 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 21:32:01,511 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:32:01,521 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:32:01,527 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:32:01,535 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 21:32:01,545 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:32:01,552 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 21:32:01,563 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:32:01,569 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 21:32:01,579 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,586 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 21:32:01,598 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,604 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 21:32:01,613 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,619 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 21:32:01,628 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,634 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 21:32:01,643 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,649 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 21:32:01,656 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,663 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 21:32:01,670 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,677 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 21:32:01,683 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,688 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 21:32:01,697 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,702 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 21:32:01,713 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,721 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 21:32:01,729 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,734 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 21:32:01,741 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,748 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 21:32:01,754 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,761 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 21:32:01,767 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,772 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 21:32:01,780 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,786 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 21:32:01,793 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:32:01,799 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 21:32:01,808 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 21:32:01,815 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 21:32:01,820 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 21:32:01,826 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:32:01,835 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:32:01,836 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:32:01,843 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 21:32:01,891 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 21:32:02,103 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 21:33:15,206 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 21:33:15,207 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 21:33:15,209 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 21:33:15,227 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:33:15,241 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 21:33:15,250 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:33:15,256 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 21:33:15,256 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 21:33:15,262 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,269 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 21:33:15,273 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 21:33:15,274 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 21:33:15,282 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 21:33:15,290 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 21:33:15,297 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:33:15,304 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:33:15,307 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:33:15,312 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 21:33:15,319 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:33:15,327 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 21:33:15,335 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:33:15,343 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 21:33:15,352 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,362 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 21:33:15,375 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,384 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 21:33:15,394 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,402 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 21:33:15,410 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,416 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 21:33:15,424 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,431 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 21:33:15,440 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,447 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 21:33:15,456 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,463 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 21:33:15,471 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,477 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 21:33:15,486 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,493 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 21:33:15,500 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,507 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 21:33:15,514 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,520 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 21:33:15,528 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,533 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 21:33:15,541 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,546 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 21:33:15,553 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,559 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 21:33:15,566 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,573 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 21:33:15,580 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:33:15,585 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 21:33:15,596 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 21:33:15,602 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 21:33:15,609 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 21:33:15,614 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:33:15,624 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:33:15,625 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:33:15,630 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 21:33:15,723 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 21:33:15,948 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 21:34:15,164 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 21:34:15,165 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 21:34:15,167 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 21:34:15,179 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:34:15,192 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 21:34:15,203 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:34:15,208 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 21:34:15,209 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 21:34:15,215 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,226 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 21:34:15,239 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 21:34:15,244 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 21:34:15,250 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 21:34:15,266 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 21:34:15,280 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:34:15,296 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:34:15,300 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:34:15,312 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 21:34:15,321 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:34:15,326 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 21:34:15,334 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:34:15,341 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 21:34:15,350 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,359 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 21:34:15,372 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,383 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 21:34:15,393 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,400 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 21:34:15,410 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,416 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 21:34:15,426 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,432 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 21:34:15,440 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,447 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 21:34:15,456 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,462 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 21:34:15,471 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,478 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 21:34:15,487 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,496 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 21:34:15,508 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,514 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 21:34:15,523 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,529 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 21:34:15,538 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,545 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 21:34:15,552 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,558 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 21:34:15,566 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,574 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 21:34:15,582 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,592 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 21:34:15,600 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:34:15,612 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 21:34:15,625 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 21:34:15,631 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 21:34:15,639 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 21:34:15,646 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:34:15,657 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:34:15,658 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:34:15,665 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 21:34:15,672 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 21:34:15,888 [ERROR] __main__ — Error exportando archivos: [Errno 13] Permission denied: 'data\\incidentes.xlsx'
+2026-02-20 21:35:12,854 [INFO] __main__ — Base de datos lista: data\database\incidentes.db
+2026-02-20 21:35:12,855 [INFO] __main__ — Iniciando proceso. PDFs encontrados: 27
+2026-02-20 21:35:12,857 [INFO] __main__ — Procesando: Comunicado N° 06-26 (1).pdf
+2026-02-20 21:35:12,871 [INFO] __main__ — [Comunicado N° 06-26 (1).pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:35:12,882 [INFO] __main__ — Procesando: Comunicado N° 06-26.pdf
+2026-02-20 21:35:12,891 [INFO] __main__ — [Comunicado N° 06-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:35:12,896 [INFO] __main__ — Duplicado ignorado: PP-06/26
+2026-02-20 21:35:12,897 [INFO] __main__ — Procesando: IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf
+2026-02-20 21:35:12,904 [INFO] __main__ — [IF-2026-00920377-GDEMZA-DGFA%SAYOT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:12,913 [INFO] __main__ — Procesando: Incidente_CH-28.pdf
+2026-02-20 21:35:12,918 [INFO] __main__ — [Incidente_CH-28.pdf] Extractor: AconcaguaExtractor
+2026-02-20 21:35:12,920 [INFO] src.extractors.aconcagua — [Aconcagua] Magnitud inferida por volumen: Menor (vol=1.5 m3, ppm=0.0)
+2026-02-20 21:35:12,926 [INFO] __main__ — Procesando: Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf
+2026-02-20 21:35:12,935 [INFO] __main__ — [Nº 0000246524 - Informe Preliminar Provincial - IM - DESFILADERO BAYO.pdf] Extractor: YPFExtractor
+2026-02-20 21:35:12,942 [INFO] __main__ — Procesando: Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:35:12,951 [INFO] __main__ — [Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:35:12,954 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:35:12,960 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf
+2026-02-20 21:35:12,968 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 08-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:35:12,974 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf
+2026-02-20 21:35:12,981 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Comunicado N° 09-26.pdf] Extractor: PluspetrolExtractor
+2026-02-20 21:35:12,988 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf
+2026-02-20 21:35:12,996 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°468 Incidente Ambiental bomba despacho bateria 5_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,006 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf
+2026-02-20 21:35:13,014 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°541 Incidente Ambiental Cañería conduccion VM-171_Informe Final.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,023 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf
+2026-02-20 21:35:13,029 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°567 Incidente Ambiental caneria LV-20.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,035 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf
+2026-02-20 21:35:13,043 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°568 Incidente Ambiental caneria VM64.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,049 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf
+2026-02-20 21:35:13,059 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°569 Incidente Ambiental puente de producción B 542.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,068 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf
+2026-02-20 21:35:13,076 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°570 Incidente Ambiental Línea de admisión de bombas de despacho Bat BN 2.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,088 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf
+2026-02-20 21:35:13,100 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°571 Incidente Ambiental Cañería control colector N°1 Bat RT.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,107 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf
+2026-02-20 21:35:13,118 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°572 Incidente Ambiental Vi-232.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,125 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf
+2026-02-20 21:35:13,135 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°573 Pérdida en línea de control de col. ECP 71.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,142 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf
+2026-02-20 21:35:13,151 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°574 Incidente Ambiental Troncal SAT 15.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,159 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf
+2026-02-20 21:35:13,168 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°575 Incidente Ambiental Col 2A batería 4 PB.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,174 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf
+2026-02-20 21:35:13,185 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°576 Incidente Ambiental Cañería control col 2A-C 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,192 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf
+2026-02-20 21:35:13,203 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°577 Incidente Ambiental PB-121.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,211 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf
+2026-02-20 21:35:13,222 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°578 Incidente Ambiental col 8 4VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,228 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf
+2026-02-20 21:35:13,237 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°579 Incidente ambiental cañería vinculación VM-10 y VM-244.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,243 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf
+2026-02-20 21:35:13,251 [INFO] __main__ — [Webmail Gobierno de Mendoza __ N°580 Incidente Ambiental Linea de control colector 2 Bat 1VM.pdf] Extractor: PetSudExtractor
+2026-02-20 21:35:13,257 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf
+2026-02-20 21:35:13,270 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251489 - Informe Preliminar Provincial - IM - PASO DE LAS BARDAS NORTE.pdf] Extractor: YPFExtractor
+2026-02-20 21:35:13,276 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf
+2026-02-20 21:35:13,289 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Nº 0000251563 - Informe Preliminar Provincial - IM - PUESTO MOLINA.pdf] Extractor: YPFExtractor
+2026-02-20 21:35:13,295 [INFO] __main__ — Procesando: Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf
+2026-02-20 21:35:13,307 [INFO] __main__ — [Webmail Gobierno de Mendoza __ Rep Preliminar Incidente Ambiental MDZ-21-2026-PCR.pdf] Extractor: PCRExtractor
+2026-02-20 21:35:13,308 [INFO] src.extractors.pcr — [PCR] Magnitud inferida por volumen: Menor (vol=1.1 m3)
+2026-02-20 21:35:13,316 [INFO] __main__ — Duplicado ignorado: PCR-MDZ-21-2025-
+2026-02-20 21:35:13,324 [INFO] __main__ — Proceso finalizado — Insertados: 25 | Omitidos: 0 | Errores: 2
+2026-02-20 21:35:13,516 [INFO] __main__ — Excel exportado: data\incidentes.xlsx
+2026-02-20 21:35:13,524 [INFO] __main__ — CSV QGIS exportado: data\incidentes_qgis.csv

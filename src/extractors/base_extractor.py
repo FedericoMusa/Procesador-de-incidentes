@@ -101,45 +101,87 @@ class BaseExtractor(ABC):
             dd = -dd
         return round(dd, 6)
 
+    @staticmethod
+    def _normalize_dms_symbols(text: str) -> str:
+        """
+        Normaliza todos los símbolos Unicode de DMS a sus equivalentes ASCII:
+          - Cualquier variante de minutos (´ ′ ' ') → '
+          - Cualquier variante de segundos (" " ″ '' ´´) → "
+          - Coma decimal → punto
+
+        Esto permite que los regex posteriores sean simples y mantenibles.
+        Caracteres cubiertos observados en PDFs de PetSud:
+          ´  U+00B4  ACUTE ACCENT         → minutos
+          ′  U+2032  PRIME                → minutos
+          '  U+2018  LEFT SINGLE QUOTE    → minutos
+          '  U+2019  RIGHT SINGLE QUOTE   → minutos
+          ″  U+2033  DOUBLE PRIME         → segundos
+          "  U+201C  LEFT DOUBLE QUOTE    → segundos
+          "  U+201D  RIGHT DOUBLE QUOTE   → segundos
+          '' dos apóstrofos consecutivos  → segundos (caso 468)
+        """
+        # Normalizar símbolo de minutos
+        text = re.sub(r"[´′\u00B4\u2018\u2019\u02BC]", "'", text)
+        # Normalizar símbolo de segundos (comillas dobles y double prime)
+        text = re.sub(r'[″\u201C\u201D]', '"', text)
+        # Dos apóstrofos/primes/acentos consecutivos → "
+        text = re.sub(r"'{2}|′{2}|´{2}", '"', text)
+        # Coma decimal → punto (para float())
+        text = re.sub(r'(\d),(\d)', r'\1.\2', text)
+        return text
+
     def parse_dms_string(self, raw: str) -> float | None:
         """
-        Parsea strings de coordenadas en distintos formatos DMS:
-          - '37 ° / 20.936 ''         → grados y minutos decimales
-          - '37 ° / 20 ' / 56.2 '''   → grados, minutos y segundos
-          - '33°30'57,62"'             → formato compacto
-        Retorna grados decimales (siempre negativo para S/W).
+        Parsea strings de coordenadas en distintos formatos DMS,
+        tolerando saltos de línea, espacios y variantes Unicode de símbolos.
+
+        Formatos soportados (antes de normalización):
+          - '33°34'39,63"'          → compacto con coma decimal
+          - '33° 35´15,04'''        → acento agudo + dos apóstrofos (PetSud Informe Final)
+          - '33°\n34'\n39,63"'      → fragmentado en múltiples líneas
+          - '37°20.936''            → grados y minutos decimales
+          - '37 ° / 20 ' / 56.2'   → con separadores /
         """
-        # Formato compacto: 33°30'57,62" o 33°30′57,62″
+        if raw is None:
+            return None
+
+        # 1. Normalizar saltos de línea y espacios múltiples
+        normalized = re.sub(r'\s+', ' ', raw.strip())
+
+        # 2. Normalizar todos los símbolos DMS a ASCII estándar
+        normalized = self._normalize_dms_symbols(normalized)
+
+        # 3. Grados°, minutos', segundos"
         m = re.match(
-            r"(\d+)[°º]\s*(\d+)[''′]\s*([\d.,]+)[\"″''′]?",
-            raw.strip()
+            r"(\d+)\s*°\s*(\d+)\s*'\s*([\d.]+)\s*\"?",
+            normalized
         )
         if m:
-            deg = float(m.group(1))
+            deg  = float(m.group(1))
             mins = float(m.group(2))
-            secs = float(m.group(3).replace(',', '.'))
+            secs = float(m.group(3))
             return self.dms_to_dd(deg, mins, secs)
 
-        # Formato con separadores / : '37 ° / 20 ' / 56.2 '''
+        # 4. Solo grados y minutos decimales: 37°20.936'
         m = re.match(
-            r"(\d+)\s*[°º]\s*/?\s*(\d+[\.,]?\d*)\s*[''′]\s*/?\s*([\d.,]+)",
-            raw.strip()
+            r"(\d+)\s*°\s*([\d.]+)\s*'",
+            normalized
         )
         if m:
-            deg = float(m.group(1))
-            mins = float(m.group(2).replace(',', '.'))
-            secs = float(m.group(3).replace(',', '.'))
-            return self.dms_to_dd(deg, mins, secs)
-
-        # Solo grados y minutos: '37 ° / 20.936 ''
-        m = re.match(
-            r"(\d+)\s*[°º]\s*/?\s*([\d.,]+)\s*[''′]",
-            raw.strip()
-        )
-        if m:
-            deg = float(m.group(1))
-            mins = float(m.group(2).replace(',', '.'))
+            deg  = float(m.group(1))
+            mins = float(m.group(2))
             return self.dms_to_dd(deg, mins)
+
+        # 5. Formato con separadores /: 37 ° / 20 ' / 56.2
+        m = re.match(
+            r"(\d+)\s*°\s*/?\s*(\d+\.?\d*)\s*'\s*/?\s*([\d.]+)",
+            normalized
+        )
+        if m:
+            deg  = float(m.group(1))
+            mins = float(m.group(2))
+            secs = float(m.group(3))
+            return self.dms_to_dd(deg, mins, secs)
 
         logger.warning(f"No se pudo parsear coordenada DMS: '{raw}'")
         return None
